@@ -1,0 +1,138 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/footer_lodyas.png");
+	background-repeat: repeat;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+header {
+	width: 100%;
+}
+
+p {
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;	
+}
+
+#logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10% 0 10% 0;
+}
+
+#tagline,#admin-title, #location, #preload {
+	font-family: "HYPE";
+}
+
+#tagline, #admin-info-edit, #preload {
+	color: #FFFFFF;
+}
+
+#location {
+	color: #1e9caf;
+
+}
+
+#middle {
+	min-height: 100%;
+}
+
+#images-container {
+	padding-top: 5%;
+	height: 100%;
+}
+
+#preload {
+	text-align: center;
+	padding: 20% 0 20% 0;
+	
+}
+
+#preload p {
+	margin-top: 10%;
+}
+#loading {
+	width: 7%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.images img {
+	width: 33%;
+}
+
+
+#admin-info-edit {
+	padding: 5% 0 14% 0;
+	width: 50%;
+
+}
+
+#admin-body p, #footer{
+	font-family: 'Helvetica';
+}
+
+#admin-title {
+	padding-bottom: 1%;
+}
+
+#footer {
+    background-color: #d95d57;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+
+}
+
+#footer{
+	text-align: center;
+	color: #ffffff;
+	font-weight: 200;
+	font-size: 10px;
+	padding-top: 3px;
+}
+
+#footer a {
+	color: #343434;
+	font-weight: 400;
+}
+
+
+
+
+@media  (min-width : 350px) and (max-width : 480px) {
+	.images img {
+		width: 100%;
+	}
+
+	#tagline {
+		line-height: 21px;
+	}
+
+	#admin-info-edit {
+		padding: 8% 0 14% 0;
+		width: 100%;
+
+	}
+
+}
+
+@font-face {
+	font-family: 'HYPE';
+	src: url('../fonts/HYPE.eot');
+	src: url('../fonts/HYPE.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HYPE.woff') format('woff'),
+		url('../fonts/HYPE.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

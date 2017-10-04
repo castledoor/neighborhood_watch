@@ -1,0 +1,38 @@
+{% extends "_layout" %}
+
+{% block content %}
+{% for entry in craft.entries.section('homepage') %}
+
+<div id="container">
+
+	<header>
+		<img id="logo" src="/resources/images/NW_logo.png">
+	</header>
+
+	<section class="middle">
+		<p id="tagline"> What are your neighbors up to?</p>
+		<p id="location">
+		</p>
+
+		<div id="images-container">
+			<div id="preload">
+				<img id="loading" src="/resources/images/loading.gif">
+				<p>fetching nearby goings on</p>
+			</div>
+
+		</div>
+	</section>
+	<section id="admin-info-edit">
+		<div id="admin-title">{{ entry.title}}</div>
+		<div id="admin-body">{{ entry.body }}</div>
+		
+	</section>
+
+
+	<footer id="footer">
+	a fun tool made by <a id="footer_link" target="_blank" href="http://www.brittanywinston.com" >JAZZY</a>
+	</footer>
+</div>
+{% endfor %}
+{% endblock %}
+

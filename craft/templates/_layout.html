@@ -1,0 +1,22 @@
+<!DOCTYPE html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="home" href="{{ siteUrl }}" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="/resources/css/slick-theme.css" />
+</head>
+<body>
+	<div id="content">
+		{% block content %}
+			You can’t see me!
+		{% endblock %}
+	</div>
+	<script type="text/javascript" src="/resources/lib/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="/resources/js/config.js"></script>
+	<script type="text/javascript" src="/resources/js/scripts.js"></script>
+</body>
+</html>
