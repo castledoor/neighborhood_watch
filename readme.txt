@@ -19,3 +19,12 @@ pulls coodinates with 4 decimal places.
 ‌• Instagram API
 ‌
 ‌• SSL Certificate - needed to use geolocation
+
+files of interest:
+
+public/resources/css/styles.css
+public/resources/js/scripts.js
+craft/templates/index/html
+craft/templates/_layout.html
+
+
