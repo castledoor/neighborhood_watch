@@ -85,6 +85,10 @@ a {
 	padding-bottom: 1%;
 }
 
+.admin_image img{
+	width: 33%;
+}
+
 #footer {
     background-color: #d95d57;
     height: 20px;

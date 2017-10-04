@@ -25,10 +25,19 @@
 	<section id="admin-info-edit">
 		<div id="admin-title">{{ entry.title}}</div>
 		<div id="admin-body">{{ entry.body }}</div>
-		
+				{% set assets = entry.asset %}
+
+						{% if assets | length %}
+
+						    {% for asset in assets %}
+
+						    <img class="admin_image"  src="{{ asset.url }}">
+						    {% endfor %}
+
+						     {% endif %}
+
+							
 	</section>
-
-
 	<footer id="footer">
 	a fun tool made by <a id="footer_link" target="_blank" href="http://www.brittanywinston.com" >JAZZY</a>
 	</footer>
